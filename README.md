@@ -12,6 +12,10 @@ Git is version control. As you work on your code you can commit changes, which i
 
 ---
 ## Initial Setup
+To setup your GitHub account 
+*Go to GitHub.com and create an account  
+*Sign In with a username and password you'll remember
+
 
 
 
