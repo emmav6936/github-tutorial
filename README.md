@@ -31,9 +31,9 @@ To set up your SSH key:
     * click on SSH and GPG keys ->  New SSH key
 ---
 ## Repository Setup
-A repository is 
+A repository is  
 To set up a repository use the command git init
-
-
----
+If you mistakenly initialize git in the wrong directory use ```rm -rf .git``` to uninitialize
+#### ADD COMMIT SAVE
+####  REMOTE
 ## Workflow & Commands
