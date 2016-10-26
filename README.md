@@ -32,7 +32,7 @@ To set up your SSH key:
     * click on SSH and GPG keys ->  New SSH key
 ---
 ## Repository Setup
-A repository is where you store the work you do using git.   
+A repository on Cloud9 is where you store the work you do using git.   
 To turn a directory into a repository use the command ```git init```  
 If you mistakenly initialize git in the wrong directory use ```rm -rf .git``` to uninitialize.
 ##### ADDING AND COMMITING
@@ -42,8 +42,11 @@ A helpful command is ```git status``` especially for when you are committing som
 
 Once you've added everything to the stage now you can commit you use the command   
 ```git commit -m "<YOUR COMMIT MESSAGE HERE>"```  
-NOTE:You're commit message should be clear and concise so that you know what the commit does
-####  REMOTE
+NOTE: You're commit message should be clear and concise so that you know what the commit does
+
+#####  REMOTE
+
+A remote repository 
 ## Workflow & Commands
 * ``` git add ``` - This adds your change(s) into the staging area. Do this before you do ``` git commit ```
 
