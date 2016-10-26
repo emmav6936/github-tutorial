@@ -4,8 +4,9 @@ _by Emma Velazquez_
 
 ---
 ## Git vs. GitHub
-Git is version control. As you work on your code you can commit changes, which is taking snapshots of your code, to see what you've done piece by piece. GitHub is an online server where you can use Git. It is a cloud where all your work is saved and you can use it from any device with internet access. You can also use GitHub to collaborate with other uses on projects. While GitHub requires Git, Git does not require GitHub.
 
+![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-26%20at%208.43.27%20AM.png?_c9_id=livepreview0&_c9_host=https://ide.c9.io)
+Git is version control. As you work on your code you can commit changes, which is taking snapshots of your code, to see what you've done piece by piece. GitHub is an online server where you can use Git. It is a cloud where all your work is saved and you can use it from any device with internet access. You can also use GitHub to collaborate with other uses on projects. While GitHub requires Git, Git does not require GitHub.
 
 
 
@@ -31,10 +32,17 @@ To set up your SSH key:
     * click on SSH and GPG keys ->  New SSH key
 ---
 ## Repository Setup
-A repository is  
-To set up a repository use the command git init
-If you mistakenly initialize git in the wrong directory use ```rm -rf .git``` to uninitialize
+A repository is where you store the work you do using git.   
+To turn a directory into a repository use the command ```git init```  
+If you mistakenly initialize git in the wrong directory use ```rm -rf .git``` to uninitialize.
+##### ADDING AND COMMIT
+![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-26%20at%2012.43.19%20PM.png?_c9_id=livepreview3&_c9_host=https://ide.c9.io)
+A commit is similar to saving your progress in a video game. When you commit you save everything that you've staged. To commit you mush first add your work to the staging area. You do this with the command ```git add``` for example if I were to stage this README i would use the command ```git add README.md```
+A helpful command is ```git status``` especially for when you are committing something. Git status will tell you what you've staged in the command line in green text and what's been changed in red text.
 
+Once you've added everything to the stage now you can commit you use the command   
+```git commit -m "<YOUR COMMIT MESSAGE HERE>"```  
+You're commit message should be clear and concise so that you know what the commit does
 ####  REMOTE
 ## Workflow & Commands
 * ``` git add ``` - This adds your change(s) into the staging area. Do this before you do ``` git commit ```
