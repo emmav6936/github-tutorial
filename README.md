@@ -13,13 +13,13 @@ Git is version control. As you work on your code you can commit changes, which i
 ---
 ## Initial Setup
 To set up your GitHub account:   
-* Go to **GitHub.com** and create an account  
+* Go to [**GitHub.com**](https://github.com/) and create an account  
     * _Sign In with a username and a password you'll remember (for example HSTAT Students could use their hstat.org account)_
 * After you've signed up check your email to verify your GitHub account
 
 To set up your Cloud9 account:
 * Create an account on Cloud9 using your first and last name then create a username _(for example HSTAT students could use their HSTAT username)_
-* Go to **c9.io** and in the top right corner there is a gear icon, click on it and go to **Connected Services**, connect to GitHub
+* Go to [**c9.io**](https://c9.io/) and in the top right corner there is a gear icon, click on it and go to **Connected Services**, connect to GitHub
 
 To set up your SSH key:
 * Go to GitHub and click on your profile icon in the top right corner
@@ -34,6 +34,8 @@ To set up your SSH key:
 A repository is  
 To set up a repository use the command git init
 If you mistakenly initialize git in the wrong directory use ```rm -rf .git``` to uninitialize
-#### ADD COMMIT SAVE
+
 ####  REMOTE
 ## Workflow & Commands
+* ``` git add ``` - This adds your change(s) into the staging area. Do this before you do ``` git commit ```
+
