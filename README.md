@@ -34,6 +34,8 @@ To set up your SSH key:
 A repository is  
 To set up a repository use the command git init
 If you mistakenly initialize git in the wrong directory use ```rm -rf .git``` to uninitialize
-#### ADD COMMIT SAVE
+
 ####  REMOTE
 ## Workflow & Commands
+* ``` git add ``` - This adds your change(s) into the staging area. Do this before you do ``` git commit ```
+
