@@ -98,12 +98,16 @@ Git init |initialize git in your directory
 
 
 ## Social Coding
- * fork & `clone`, pull requests and `pull`
- To fork is to take someone's work pull it down into your local repository and add to it, change it.
+ * fork & `clone`, pull requests and `pull`  
+To fork is to take someone's work pull it down into your local repository and add to it, change it.
 To do this you:
 * Go to GitHub and onto the profile of the person whose repository you wish to fork 
-* Click on their repository and in the top right there should be an icon that says fork 
-* 
+* Click on their repository and in the top right there should be an icon that says fork ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%201.07.32%20PM.png?_c9_id=livepreview0&_c9_host=https://ide.c9.io)
+* click _Clone or Download_ ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%201.07.46%20PM.png?_c9_id=livepreview2&_c9_host=https://ide.c9.io)
+* Copy the URL ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%201.07.58%20PM.png?_c9_id=livepreview3&_c9_host=https://ide.c9.io)
+* On Cloud9 use ```git clone <URL>``` to pull 
+
+##### Pull Request
 
 ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/fork%20and%20clone.png?_c9_id=livepreview3&_c9_host=https://ide.c9.io)
 
