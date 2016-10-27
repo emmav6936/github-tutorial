@@ -78,23 +78,22 @@ NOTE: You're commit message should be clear and concise so that you know what th
 ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%207.51.21%20AM.png?_c9_id=livepreview8&_c9_host=https://ide.c9.io)
 
 ## Workflow & Commands
-* ```mkdir <directory name>``` make a directory
-* ```cd <directory> ``` go into your directory
-* ``` git init``` initialize git/ turn your directory into a repository
-* ``` rm -rf .git``` unintialize git 
-* ``` git add <file>``` add to the stage
-* ``` git commit -m "<commit message>"``` take snapshot of code/save the version
-* ```git log``` see your past commits
-* ```git status``` see your changes
-* ```git add remote origin URL``` setup remote 
-* ``` git push -u origin master``` setup remote (both of these are necessary)
-* ```git push``` export to the cloud
-* ```git remote -v``` see if your push worked
-* ``` git clone``` 
 
 Command | Definition
 ---------|------------
-Git init |initialize git in your directory
+```mkdir <directory name>``` |make a directory
+```cd <directory> ```| go into your directory
+``` git init``` |initialize git/ turn your directory into a repository
+``` rm -rf .git``` | unintialize git 
+``` git add <file>``` |add to the stage
+``` git commit -m "<commit message>"``` |take snapshot of code/save the version
+```git log``` |see your past commits
+ ```git status``` |see your changes
+ ```git add remote origin URL``` |setup remote 
+ ``` git push -u origin master```| setup remote (both of these are necessary)
+ ```git push``` |export to the cloud
+ ```git remote -v``` |see if your push worked
+ ``` git clone``` | copies the entire repository
 
 
 ## Social Coding
@@ -105,7 +104,10 @@ To do this you:
 * Click on their repository and in the top right there should be an icon that says fork ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%201.07.32%20PM.png?_c9_id=livepreview0&_c9_host=https://ide.c9.io)
 * click _Clone or Download_ ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%201.07.46%20PM.png?_c9_id=livepreview2&_c9_host=https://ide.c9.io)
 * Copy the URL ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%201.07.58%20PM.png?_c9_id=livepreview3&_c9_host=https://ide.c9.io)
-* On Cloud9 use ```git clone <URL>``` to pull 
+* On Cloud9 use ```git clone <URL>``` 
+* Make changes and requests 
+* Save, add, commit, and push your changes to the cloud
+* make a pull request ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/pull%20request%20icon.PNG?_c9_id=livepreview0&_c9_host=https://ide.c9.io)
 
 ##### Pull Request
 
