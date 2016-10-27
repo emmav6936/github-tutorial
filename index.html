@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>GitHub-tutorial by emmav6936</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">GitHub-tutorial</h1>
+      <h2 class="project-tagline">Git informed</h2>
+      <a href="https://github.com/emmav6936/github-tutorial" class="btn">View on GitHub</a>
+      <a href="https://github.com/emmav6936/github-tutorial/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/emmav6936/github-tutorial/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Emma Velazquez</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p><img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Octocat.png?_c9_id=livepreview0&amp;_c9_host=https://ide.c9.io" alt=""></p>
+
+<p>Git is version control. As you work on your code you can commit changes, which is taking snapshots of your code, to see what you've done piece by piece. GitHub is an online server where you can use Git. It is a cloud where all your work is saved and you can use it from any device with internet access. You can also use GitHub to collaborate with other uses on projects. While GitHub requires Git, Git does not require GitHub.</p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>To set up your GitHub account:   </p>
+
+<ul>
+<li>Go to <a href="https://github.com/"><strong>GitHub.com</strong></a> and create an account<br>
+
+<ul>
+<li><em>Sign In with a username and a password you'll remember (for example HSTAT Students could use their hstat.org account)</em></li>
+</ul>
+</li>
+<li>After you've signed up check your email to verify your GitHub account</li>
+</ul>
+
+<p>To set up your Cloud9 account:</p>
+
+<ul>
+<li>Create an account on Cloud9 using your first and last name then create a username <em>(for example HSTAT students could use their HSTAT username)</em>
+</li>
+<li>Go to <a href="https://c9.io/"><strong>c9.io</strong></a> and in the top right corner there is a gear icon, click on it and go to <strong>Connected Services</strong>, connect to GitHub</li>
+</ul>
+
+<p>To set up your SSH key:</p>
+
+<ul>
+<li>Go to GitHub and click on your profile icon in the top right corner</li>
+<li>Go to settings</li>
+<li>In the left sidebar click on SSH and GPG keys
+
+<ul>
+<li>click on New SSH key</li>
+</ul>
+</li>
+<li>Give it a title <em>(for example Cloud9)</em>
+</li>
+<li>Go to Cloud9 and click on the gear icon 
+
+<h2>
+<a id="-click-on-ssh-and-gpg-keys----new-ssh-key" class="anchor" href="#-click-on-ssh-and-gpg-keys----new-ssh-key" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>* click on SSH and GPG keys -&gt;  New SSH key</h2>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+</li>
+</ul>
+
+<p>A repository on Cloud9 is where you store the work you do using git.
+To make a directory use the command <code>mkdir &lt;repo-name&gt;</code>
+To turn a directory into a repository use the command <code>git init</code><br>
+If you mistakenly initialize git in the wrong directory use <code>rm -rf .git</code> to uninitialize.</p>
+
+<h5>
+<a id="remote" class="anchor" href="#remote" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>REMOTE</h5>
+
+<p><img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/remote%20repository%20image.png?_c9_id=livepreview2&amp;_c9_host=https://ide.c9.io" alt="">
+A remote repository is where your work is stored on the cloud. <em>GitHub is an example of a remote repository platform</em></p>
+
+<p>Your local repository (<em>Cloud9</em>) and your remote repository (<em>GitHub</em>) should be linked so that you are able to push (<em>send/upload/export</em>) to the cloud and pull (<em>download/import</em>) from.</p>
+
+<p>To do this you need to:  </p>
+
+<ul>
+<li>Go to GitHub and in the top right corner you should see a plus sign icon <img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/plus%20icon.png?_c9_id=livepreview4&amp;_c9_host=https://ide.c9.io" alt="">, click on it</li>
+<li>Make a new repository <em><strong>IT MUST HAVE THE SAME EXACT NAME AS YOUR CLOUD9 REPOSITORY</strong></em> <img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/create%20a%20new%20repo.png?_c9_id=livepreview7&amp;_c9_host=https://ide.c9.io" alt="">
+</li>
+<li>Create repository</li>
+<li>In quick setup make sure you are using an SSH Key which is more efficient than a HTTPS Key because you don't have to put your username and password in everytime you need to push</li>
+</ul>
+
+<h6>
+<a id="important-commands-to-use-when-setting-up-your-remote-repository" class="anchor" href="#important-commands-to-use-when-setting-up-your-remote-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Important Commands to use when setting up your remote repository</h6>
+
+<ul>
+<li>
+<code>git remote add &lt;name&gt; &lt;url&gt;</code> for example <code>git remote add origin git@github.com:emmav6936/model-repository.git</code>
+</li>
+<li>
+<code>git push -u &lt;name&gt; master</code> for example <code>git push -u origin master</code> </li>
+</ul>
+
+<p>These commands link your local and your remote and you only need to do this once per repository </p>
+
+<h6>
+<a id="to-completely-remove-a-repository" class="anchor" href="#to-completely-remove-a-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To completely remove a repository:</h6>
+
+<ul>
+<li>On Cloud9: <code>rm -rf &lt;your repo name&gt;</code> for example <code>rm -rf model-repo</code>
+</li>
+<li>On GitHub: 
+
+<ul>
+<li>Go to settings and scroll down to the <strong>Danger Zone</strong> <img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/danger%20zone.png?_c9_id=livepreview5&amp;_c9_host=https://ide.c9.io" alt="">
+</li>
+<li>Click on <strong>Delete this Repository</strong>
+</li>
+<li>A box will pop up saying <em>Are you ABSOLUTELY sure?</em> Type in the name of your repository <img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/are%20you%20absolutely%20sure.png?_c9_id=livepreview6&amp;_c9_host=https://ide.c9.io" alt="">
+</li>
+</ul>
+</li>
+</ul>
+
+<h5>
+<a id="adding-and-commiting" class="anchor" href="#adding-and-commiting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ADDING AND COMMITING</h5>
+
+<p><img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%2011.27.47%20AM.png?_c9_id=livepreview1&amp;_c9_host=https://ide.c9.io" alt="">
+A commit is similar to saving your progress in a video game. When you commit you save everything that you've staged. To commit you mush first add your work to the staging area. You do this with the command <code>git add</code> for example if I were to stage this README I would use the command <code>git add README.md</code>
+A helpful command is <code>git status</code> especially for when you are committing something. Git status will tell you what you've staged in the command line in green text and new work will be in red text.</p>
+
+<p>Once you've added everything to the stage now you can commit you use the command<br>
+<code>git commit -m "&lt;YOUR COMMIT MESSAGE HERE&gt;"</code><br>
+NOTE: You're commit message should be clear and concise so that you know what the commit does</p>
+
+<p><img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%207.51.21%20AM.png?_c9_id=livepreview8&amp;_c9_host=https://ide.c9.io" alt=""></p>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>mkdir &lt;directory name&gt;</code></td>
+<td>make a directory</td>
+</tr>
+<tr>
+<td><code>cd &lt;directory&gt;</code></td>
+<td>go into your directory</td>
+</tr>
+<tr>
+<td><code>git init</code></td>
+<td>initialize git/ turn your directory into a repository</td>
+</tr>
+<tr>
+<td><code>rm -rf .git</code></td>
+<td>unintialize git</td>
+</tr>
+<tr>
+<td><code>git add &lt;file&gt;</code></td>
+<td>add to the stage</td>
+</tr>
+<tr>
+<td><code>git commit -m "&lt;commit message&gt;"</code></td>
+<td>take snapshot of code/save the version</td>
+</tr>
+<tr>
+<td><code>git log</code></td>
+<td>see your past commits</td>
+</tr>
+<tr>
+<td><code>git status</code></td>
+<td>see your changes</td>
+</tr>
+<tr>
+<td><code>git add remote origin URL</code></td>
+<td>setup remote</td>
+</tr>
+<tr>
+<td><code>git push -u origin master</code></td>
+<td>setup remote (both of these are necessary)</td>
+</tr>
+<tr>
+<td><code>git push</code></td>
+<td>export to the cloud</td>
+</tr>
+<tr>
+<td><code>git remote -v</code></td>
+<td>see if your push worked</td>
+</tr>
+<tr>
+<td><code>git clone</code></td>
+<td>copies the entire repository</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="social-coding" class="anchor" href="#social-coding" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Social Coding</h2>
+
+<ul>
+<li>fork &amp; <code>clone</code>, pull requests and <code>pull</code><br>
+To fork is to take someone's work pull it down into your local repository and add to it, change it.
+To do this you:
+
+<ul>
+<li>Go to GitHub and onto the profile of the person whose repository you wish to fork </li>
+<li>Click on their repository and in the top right there should be an icon that says fork <img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%201.07.32%20PM.png?_c9_id=livepreview0&amp;_c9_host=https://ide.c9.io" alt="">
+</li>
+<li>click <em>Clone or Download</em> <img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%201.07.46%20PM.png?_c9_id=livepreview2&amp;_c9_host=https://ide.c9.io" alt="">
+</li>
+<li>Copy the URL <img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%201.07.58%20PM.png?_c9_id=livepreview3&amp;_c9_host=https://ide.c9.io" alt="">
+</li>
+<li>On Cloud9 use <code>git clone &lt;URL&gt;</code> </li>
+<li>Make changes and requests </li>
+<li>Save, add, commit, and push your changes to the cloud</li>
+<li>make a pull request <img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/pull%20request%20icon.PNG?_c9_id=livepreview0&amp;_c9_host=https://ide.c9.io" alt="">
+</li>
+</ul>
+</li>
+</ul>
+
+<h5>
+<a id="pull-request" class="anchor" href="#pull-request" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Pull Request</h5>
+
+<p><img src="https://preview.c9users.io/emmav6936/github-learning/github-tutorial/fork%20and%20clone.png?_c9_id=livepreview3&amp;_c9_host=https://ide.c9.io" alt=""></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/emmav6936/github-tutorial">GitHub-tutorial</a> is maintained by <a href="https://github.com/emmav6936">emmav6936</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
