@@ -32,7 +32,8 @@ To set up your SSH key:
     * click on SSH and GPG keys ->  New SSH key
 ---
 ## Repository Setup
-A repository on Cloud9 is where you store the work you do using git.   
+A repository on Cloud9 is where you store the work you do using git.
+To make a directory use the command ```mkdir <repo-name>```
 To turn a directory into a repository use the command ```git init```  
 If you mistakenly initialize git in the wrong directory use ```rm -rf .git``` to uninitialize.
 ##### ADDING AND COMMITING
@@ -46,7 +47,7 @@ NOTE: You're commit message should be clear and concise so that you know what th
 
 #####  REMOTE
 
-A remote repository 
+A remote repository is where your work is stored on the cloud. _GitHub is an example of a remote repository platform_
 ## Workflow & Commands
 * ``` git add ``` - This adds your change(s) into the staging area. Do this before you do ``` git commit ```
 
