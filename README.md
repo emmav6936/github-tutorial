@@ -36,6 +36,18 @@ A repository on Cloud9 is where you store the work you do using git.
 To make a directory use the command ```mkdir <repo-name>```
 To turn a directory into a repository use the command ```git init```  
 If you mistakenly initialize git in the wrong directory use ```rm -rf .git``` to uninitialize.
+
+#####  REMOTE
+
+A remote repository is where your work is stored on the cloud. _GitHub is an example of a remote repository platform_
+
+Your local repository (_Cloud9_) and your remote repository (_GitHub_) should be linked so that you are able to push (_send/upload/export_) to the cloud and pull (_download/import_) from it.
+
+To do this you need to:
+*Go to GitHub and in the top right corner you should see a plus sign icon, click on it
+* Make a new repo _**IT MUST HAVE THE SAME EXACT NAME AS YOUR CLOUD9 REPOSITORY**_
+* Create repository
+
 ##### ADDING AND COMMITING
 ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-26%20at%2012.43.19%20PM.png?_c9_id=livepreview3&_c9_host=https://ide.c9.io)
 A commit is similar to saving your progress in a video game. When you commit you save everything that you've staged. To commit you mush first add your work to the staging area. You do this with the command ```git add``` for example if I were to stage this README I would use the command ```git add README.md```
@@ -45,9 +57,6 @@ Once you've added everything to the stage now you can commit you use the command
 ```git commit -m "<YOUR COMMIT MESSAGE HERE>"```  
 NOTE: You're commit message should be clear and concise so that you know what the commit does
 
-#####  REMOTE
-
-A remote repository is where your work is stored on the cloud. _GitHub is an example of a remote repository platform_
 ## Workflow & Commands
 * ``` git add ``` - This adds your change(s) into the staging area. Do this before you do ``` git commit ```
 
