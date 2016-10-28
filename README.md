@@ -109,7 +109,5 @@ To do this you:
 * Save, add, commit, and push your changes to the cloud
 * make a pull request ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/pull%20request%20icon.PNG?_c9_id=livepreview0&_c9_host=https://ide.c9.io)
 
-##### Pull Request
-
 ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/fork%20and%20clone.png?_c9_id=livepreview3&_c9_host=https://ide.c9.io)
 
