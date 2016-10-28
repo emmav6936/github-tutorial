@@ -9,9 +9,6 @@ _by Emma Velazquez_
 
 Git is version control. As you work on your code you can commit changes, which is taking snapshots of your code, to see what you've done piece by piece. GitHub is an online server where you can use Git. It is a cloud where all your work is saved and you can use it from any device with internet access. You can also use GitHub to collaborate with other uses on projects. While GitHub requires Git, Git does not require GitHub.
 
-
-
-
 ---
 ## Initial Setup
 To set up your GitHub account:   
@@ -65,7 +62,6 @@ These commands link your local and your remote and you only need to do this once
     * Click on **Delete this Repository**
     * A box will pop up saying _Are you ABSOLUTELY sure?_ Type in the name of your repository ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/are%20you%20absolutely%20sure.png?_c9_id=livepreview6&_c9_host=https://ide.c9.io)
 
-
 ##### ADDING AND COMMITING
 ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/Screen%20Shot%202016-10-27%20at%2011.27.47%20AM.png?_c9_id=livepreview1&_c9_host=https://ide.c9.io)
 A commit is similar to saving your progress in a video game. When you commit you save everything that you've staged. To commit you mush first add your work to the staging area. You do this with the command ```git add``` for example if I were to stage this README I would use the command ```git add README.md```
@@ -95,7 +91,6 @@ Command | Definition
  ```git remote -v``` |see if your push worked
  ``` git clone``` | copies the entire repository
 
-
 ## Social Coding
  * fork & `clone`, pull requests and `pull`  
 To fork is to take someone's work pull it down into your local repository and add to it, change it.
@@ -110,4 +105,3 @@ To do this you:
 * make a pull request ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/pull%20request%20icon.PNG?_c9_id=livepreview0&_c9_host=https://ide.c9.io)
 
 ![](https://preview.c9users.io/emmav6936/github-learning/github-tutorial/fork%20and%20clone.png?_c9_id=livepreview3&_c9_host=https://ide.c9.io)
-
